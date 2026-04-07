@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f2f2f2;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+        }
+        .form {
+            width: 340px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgb(0,0,0,0.1);
+        }
+        input {
+            box-sizing: border-box;
+            width: 100%;
+            margin:10px 0;
+            padding: 10px;
+        }
+        .btn {
+            width: 100%;
+            color: white;
+            background-color: blue;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .login-btn {
+            margin-top: 20px;
+            padding: 8px;
+            width: 100%;
+            border-radius: 5px;
+            border: 2px solid blue;
+            background: white;
+            font-size: 15px;
+        }
+        .form > p {
+            text-align: center;
+        }
+        span {
+            color: blue;
+            cursor: pointer;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- sign up  -->
+            <div class="form " id="signupForm">
+                <h2>Sign Up</h2>
+                <input type="text" placeholder="Username">
+                <input type="email" placeholder="email">
+                <input type="password" placeholder="password">
+                <button class="btn">Submit</button>
+                <p>Already have an account? <span id="gologin">Login</span></p>
+            </div>
+
+            <!-- login  -->
+             <div class="form hidden" id="loginForm">
+                <h2>Login</h2>
+                <input type="email" placeholder="Enail">
+                <input type="password" placeholder="password">
+                <button class="btn">Submit</button>
+                <button class="login-btn">Don't have an account? <span id="gosignup">Sign up</span></button> 
+             </div>
+             <script src="./event.js"></script>
+    </div>
+</body>
+</html>
