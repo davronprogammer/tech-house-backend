@@ -4,13 +4,13 @@ import authRoutes from './routes/authRoutes.js';
 
 const app = express();
 
+
+//middlware
 app.use(cors());
 app.use(express.json());
+app.use(express.urlencoded({extended: true}));
 
+//routes
 app.use('/auth', authRoutes);
-
-app.get('/', (req, res) => {
-  res.json({ message: 'Tech House backend is running' });
-});
 
 export default app;
