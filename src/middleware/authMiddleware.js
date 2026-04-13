@@ -13,8 +13,10 @@ export function verifyToken(req, res, next) {
         if (err) {
             return res.status(401).json({ message: "Token yaroqsiz" });
         }
-
+ 
         req.user = decoded;
         next();
     });
 }
+
+

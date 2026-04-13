@@ -10,5 +10,11 @@
     "username": "jack",
     "email": "jack123@gmail.com",
     "password": "$2b$10$KHsKNpel7NB9aTuN1AtOo.p/JktQNhTELGgwehwIFn67alumo6HSK"
+  },
+  {
+    "id": 3,
+    "username": "jack",
+    "email": "jack@gmail.com",
+    "password": "$2b$10$7FWDp65InmOZ4Caw8vzLYOqzQYcDYZ/S7Wlb.SCwemvTVMDItGA.W"
   }
 ]
