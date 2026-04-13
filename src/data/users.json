@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": 1,
+    "username": "davron",
+    "email": "davronnormamatov123@gmail.com",
+    "password": "$2b$10$GHxT/G1z.pq/CBtLk2ITEufothImjIEeSoMSlacKwP.zwkiwhvIj."
+  },
+  {
+    "id": 2,
+    "username": "jack",
+    "email": "jack123@gmail.com",
+    "password": "$2b$10$KHsKNpel7NB9aTuN1AtOo.p/JktQNhTELGgwehwIFn67alumo6HSK"
+  }
+]
