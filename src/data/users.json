@@ -16,5 +16,11 @@
     "username": "jack",
     "email": "jack@gmail.com",
     "password": "$2b$10$7FWDp65InmOZ4Caw8vzLYOqzQYcDYZ/S7Wlb.SCwemvTVMDItGA.W"
+  },
+  {
+    "id": 4,
+    "username": "davron",
+    "email": "asdfasf@gmail",
+    "password": "$2b$10$d6YQ/zyw5LMJbYRpAaDzz.cYf8PW5SEUAalrTI3ggAcTJrTDc8W22"
   }
 ]
